@@ -1,0 +1,40 @@
+Count,Message,Traceback,Nodes
+1086,'id',"  File ""/home/abdustartus/miniconda3/lib/python3.13/site-packages/locust/user/task.py"", line 362, in run
+    self.execute_next_task()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""/home/abdustartus/miniconda3/lib/python3.13/site-packages/locust/user/task.py"", line 395, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/abdustartus/miniconda3/lib/python3.13/site-packages/locust/user/task.py"", line 512, in execute_task
+    task(self.user)
+    ~~~~^^^^^^^^^^^
+  File ""/home/abdustartus/locust-tests/locustfile.py"", line 56, in book_seats
+    show_id = show[""id""]
+              ~~~~^^^^^^
+",local
+2102,'id',"  File ""/home/abdustartus/miniconda3/lib/python3.13/site-packages/locust/user/task.py"", line 362, in run
+    self.execute_next_task()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""/home/abdustartus/miniconda3/lib/python3.13/site-packages/locust/user/task.py"", line 395, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/abdustartus/miniconda3/lib/python3.13/site-packages/locust/user/task.py"", line 512, in execute_task
+    task(self.user)
+    ~~~~^^^^^^^^^^^
+  File ""/home/abdustartus/locust-tests/locustfile.py"", line 38, in check_seats
+    show_id = random.choice(shows)[""id""]
+              ~~~~~~~~~~~~~~~~~~~~^^^^^^
+",local
+3890,'id',"  File ""/home/abdustartus/miniconda3/lib/python3.13/site-packages/locust/user/task.py"", line 362, in run
+    self.execute_next_task()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File ""/home/abdustartus/miniconda3/lib/python3.13/site-packages/locust/user/task.py"", line 395, in execute_next_task
+    self.execute_task(self._task_queue.popleft())
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""/home/abdustartus/miniconda3/lib/python3.13/site-packages/locust/user/task.py"", line 512, in execute_task
+    task(self.user)
+    ~~~~^^^^^^^^^^^
+  File ""/home/abdustartus/locust-tests/locustfile.py"", line 82, in rush_book
+    show_id = shows[0][""id""]
+              ~~~~~~~~^^^^^^
+",local
