@@ -125,8 +125,7 @@ Three live alert policies in Cloud Monitoring, all with email notifications:
 
 A log sink routes all Cloud Run, MIG, and Cloud SQL logs into Cloud Storage continuously. Every request, every error, every slow query — stored and timestamped. The load test activity from March 11–12 is already in there.
 
-A user feedback form was also deployed as a standalone Cloud Run service:  
-👉 **https://feedback-form-709381474358.us-central1.run.app**
+A user feedback form was also deployed as a standalone Cloud Run service.  
 
 It runs separately from the main application deliberately — so it stays up even when the booking engine is under maximum pressure. That's exactly when you need user reports.
 
