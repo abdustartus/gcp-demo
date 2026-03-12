@@ -45,7 +45,7 @@ gcp-demo/
 
 ## The Journey
 
-### Stage 1 — Local Baseline (Task 1)
+### Stage 1 — Local Baseline
 
 Before touching GCP, we ran the app locally and measured what we were dealing with.
 
@@ -59,7 +59,7 @@ At 500 users, average response time crossed 5 seconds. That's the point where pe
 
 ---
 
-### Stage 2 — GCP Infrastructure (Tasks 2–4)
+### Stage 2 — GCP Infrastructure
 
 We moved the app to GCP and added the infrastructure it was missing.
 
@@ -72,7 +72,7 @@ The Redis result alone was striking. A cold `/api/movies` request took 1.9 secon
 
 ---
 
-### Stage 3 — Load Testing on GCP (Task 5)
+### Stage 3 — Load Testing on GCP
 
 With infrastructure in place, we ran the same load tests against GCP.
 
@@ -101,7 +101,7 @@ Same code. Two numbers changed. p99 went from 26 seconds to 1 second.
 
 ---
 
-### Stage 4 — Cost Optimisation (Task 6)
+### Stage 4 — Cost Optimisation
 
 The entire infrastructure ran within GCP's free tier — zero billed cost.
 
@@ -113,7 +113,7 @@ What was set up to keep it that way at scale:
 
 ---
 
-### Stage 5 — Monitoring (Task 7)
+### Stage 5 — Monitoring
 
 Three live alert policies in Cloud Monitoring, all with email notifications:
 
