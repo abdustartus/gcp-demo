@@ -131,17 +131,6 @@ It runs separately from the main application deliberately — so it stays up eve
 
 ---
 
-## Live URLs
-
-| Service | URL |
-|---------|-----|
-| Main App | https://mini-bookmyshow-709381474358.us-central1.run.app |
-| Feedback Form | https://feedback-form-709381474358.us-central1.run.app |
-| Seat Availability Function | https://seat-availability-checker-oxgx7idima-uc.a.run.app?showId=1 |
-| Load Balancer IP | http://34.107.206.17 |
-
----
-
 ## Key Numbers
 
 | Metric | Local | GCP (tuned) | Improvement |
